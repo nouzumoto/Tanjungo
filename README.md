@@ -40,14 +40,16 @@ Browser extension for **https://translations.telegram.org/** with dark theme, ad
 
 ### Firefox
 
-//
+Install here:
+https://addons.mozilla.org/it/firefox/addon/tanjungo/
 
-### Chrome/Edge (Manifest V3)
+### Chrome/Edge
 
-1. Open `chrome://extensions/` (or `edge://extensions/`)
-2. Enable "Developer mode"
-3. Click "Load unpacked"
-4. Select the `Tanjungo` folder
+1. Download all the files
+2. Open `chrome://extensions/` (or `edge://extensions/`)
+3. Enable "Developer mode"
+4. Click "Load unpacked"
+5. Select the `Tanjungo` folder
 
 ## How to use
 
