@@ -1,6 +1,6 @@
 # Tanjungo
 
-Complete browser extension for **https://translations.telegram.org/** with dark theme, advanced hotkeys, emoji autocomplete, and auto-replace features.
+Browser extension for **https://translations.telegram.org/** with dark theme, advanced hotkeys, emoji autocomplete, and auto-replace features.
 
 ## 🚀 Features
 
