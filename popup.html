@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanjungo</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Tanjungo</h1>
+      <p>Telegram Translations Helper</p>
+    </div>
+    
+    <div class="section">
+      <div class="toggle-container">
+        <label class="toggle-label">
+          <span class="toggle-text">Dark Theme</span>
+          <div class="toggle-switch">
+            <input type="checkbox" id="darkThemeToggle">
+            <span class="slider"></span>
+          </div>
+        </label>
+        <span class="toggle-status" id="toggleStatus">OFF</span>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h3>Available hotkeys:</h3>
+      <ul class="hotkey-list">
+        <li><kbd>Ctrl+Enter</kbd> or <kbd>y</kbd> → Apply 1st suggestion & move to next</li>
+        <li><kbd>Ctrl+Enter</kbd> (in field) → Submit suggestion & move down</li>
+        <li><kbd>Ctrl+A</kbd> or <kbd>i</kbd> → Add a new translation</li>
+        <li><kbd>Ctrl+E</kbd> or <kbd>c</kbd> → Edit the first suggestion</li>
+        <li><kbd>Ctrl+K</kbd> → Quick search selected text</li>
+        <li><kbd>Ctrl+Shift+X</kbd> → Cut & Wrap Link</li>
+        <li><kbd>Ctrl+M</kbd> → Remove all asterisks (*) from selected text</li>
+        <li><kbd>Ctrl+I</kbd> → Convert selected text to uppercase</li>
+        <li><kbd>Ctrl+*</kbd> → Insert token wrapped in **</li>
+        <li><kbd>/</kbd> → Focus search</li>
+        <li><kbd>Esc</kbd> (in field) → Cancel</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <p class="info">Type <kbd>:</kbd> for emoji autocomplete</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
